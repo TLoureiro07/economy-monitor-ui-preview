@@ -1,6 +1,6 @@
 # Economy Monitor - UI Preview
 
-Standalone browser demo of the **Economy Monitor** admin dashboard. The commercial FiveM resource stays private — this repo shows only the front-end with mock data.
+Standalone browser demo of the **Economy Monitor** admin dashboard. The commercial FiveM resource stays private, this repo shows only the front-end with mock data.
 
 **Stack:** HTML · Vanilla JS · CSS · Chart.js · Vite (dev server)
 
