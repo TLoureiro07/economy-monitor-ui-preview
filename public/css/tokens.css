@@ -1,0 +1,173 @@
+/**
+ * Design System — Tokens
+ * Linguagem visual inspirada na referência (warm cream + amber + charcoal).
+ * FiveM CEF: sem backdrop-filter — superfícies opacas / semi-sólidas.
+ * Prefixo: --ds-*
+ */
+
+:root {
+  /* ── Surfaces (warm light) ── */
+  --ds-color-bg: #f4efe4;
+  --ds-color-bg-elevated: #faf7f0;
+  --ds-color-surface: #ffffff;
+  --ds-color-surface-2: #f7f3ea;
+  --ds-color-surface-3: #ebe4d6;
+  --ds-color-border: rgba(45, 42, 36, 0.08);
+  --ds-color-border-strong: rgba(45, 42, 36, 0.14);
+  --ds-color-divider: rgba(45, 42, 36, 0.06);
+
+  /* ── Text ── */
+  --ds-color-text: #2a2722;
+  --ds-color-text-secondary: #6e675c;
+  --ds-color-text-muted: #9a9286;
+  --ds-color-text-inverse: #faf7f0;
+
+  /* ── Brand accent (amber / gold) ── */
+  --ds-color-accent: #f0c14b;
+  --ds-color-accent-hover: #f5cd66;
+  --ds-color-accent-pressed: #d9a832;
+  --ds-color-accent-muted: rgba(240, 193, 75, 0.22);
+  --ds-color-accent-glow: rgba(240, 193, 75, 0.35);
+
+  /* ── Contrast (charcoal — active nav / dark panels) ── */
+  --ds-color-ink: #2d2d2d;
+  --ds-color-ink-soft: #3a3a3a;
+
+  /* ── Semantic ── */
+  --ds-color-info: #5b7cfa;
+  --ds-color-info-muted: rgba(91, 124, 250, 0.14);
+  --ds-color-violet: #7c6af0;
+  --ds-color-violet-muted: rgba(124, 106, 240, 0.14);
+  --ds-color-warning: #e8a020;
+  --ds-color-warning-muted: rgba(232, 160, 32, 0.16);
+  --ds-color-danger: #e25555;
+  --ds-color-danger-muted: rgba(226, 85, 85, 0.14);
+  --ds-color-success: #2fad6a;
+  --ds-color-success-muted: rgba(47, 173, 106, 0.14);
+
+  /* ── Glass-like (CEF-safe solid) ── */
+  --ds-glass-bg: #ffffff;
+  --ds-glass-bg-soft: #faf7f0;
+  --ds-glass-bg-solid: #ffffff;
+  --ds-scrim: rgba(32, 28, 22, 0.45);
+
+  /* ── Typography ── */
+  --ds-font-sans: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --ds-text-xs: 11px;
+  --ds-text-sm: 12.5px;
+  --ds-text-md: 14px;
+  --ds-text-lg: 16px;
+  --ds-text-xl: 20px;
+  --ds-text-2xl: 28px;
+  --ds-text-3xl: 34px;
+  --ds-leading-tight: 1.12;
+  --ds-leading-snug: 1.28;
+  --ds-leading-normal: 1.5;
+  --ds-weight-regular: 400;
+  --ds-weight-medium: 500;
+  --ds-weight-semibold: 600;
+  --ds-weight-bold: 700;
+
+  /* ── Spacing (4px) ── */
+  --ds-space-0: 0;
+  --ds-space-1: 4px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-5: 20px;
+  --ds-space-6: 24px;
+  --ds-space-7: 32px;
+  --ds-space-8: 40px;
+  --ds-space-9: 48px;
+  --ds-space-10: 64px;
+
+  /* ── Radius (generous, referência) ── */
+  --ds-radius-xs: 8px;
+  --ds-radius-sm: 12px;
+  --ds-radius-md: 16px;
+  --ds-radius-lg: 22px;
+  --ds-radius-xl: 28px;
+  --ds-radius-2xl: 36px;
+  --ds-radius-full: 9999px;
+
+  /* ── Shadows (soft, large spread) ── */
+  --ds-shadow-sm: 0 4px 18px rgba(45, 42, 36, 0.06);
+  --ds-shadow-md: 0 12px 36px rgba(45, 42, 36, 0.08);
+  --ds-shadow-lg: 0 24px 56px rgba(45, 42, 36, 0.12);
+  --ds-glow-accent: 0 8px 24px var(--ds-color-accent-glow);
+  --ds-glow-accent-lg: 0 12px 40px var(--ds-color-accent-glow);
+  --ds-glow-violet: 0 8px 24px rgba(124, 106, 240, 0.25);
+
+  /* ── Motion ── */
+  --ds-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ds-ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
+  --ds-duration-fast: 140ms;
+  --ds-duration-normal: 220ms;
+  --ds-duration-slow: 360ms;
+
+  /* ── Controls ── */
+  --ds-control-h-sm: 34px;
+  --ds-control-h-md: 42px;
+  --ds-control-h-lg: 48px;
+  --ds-icon-sm: 16px;
+  --ds-icon-md: 20px;
+  --ds-icon-lg: 24px;
+
+  /* ── Z ── */
+  --ds-z-base: 1;
+  --ds-z-dropdown: 100;
+  --ds-z-modal: 1000;
+  --ds-z-toast: 1100;
+
+  /* ── Shell / ambient (theme-aware) ── */
+  --ds-shell-gradient: linear-gradient(145deg, #faf7f0 0%, #f3ecdf 55%, #efe4c8 100%);
+  --ds-shell-border: rgba(255, 255, 255, 0.65);
+  --ds-ambient-accent: #ffe08a;
+  --ds-ambient-warm: #f0d9a8;
+  --ds-scroll-thumb: #c9bfa8;
+  --ds-color-accent-ink: #8a6a12;
+  --ds-pill-active-shadow: 0 6px 16px rgba(45, 45, 45, 0.2);
+}
+
+/* Dark mode — same language, inverted surfaces */
+[data-theme="dark"] {
+  --ds-color-bg: #161411;
+  --ds-color-bg-elevated: #1c1915;
+  --ds-color-surface: #24211c;
+  --ds-color-surface-2: #2c2923;
+  --ds-color-surface-3: #35312a;
+  --ds-color-border: rgba(250, 247, 240, 0.08);
+  --ds-color-border-strong: rgba(250, 247, 240, 0.14);
+  --ds-color-divider: rgba(250, 247, 240, 0.06);
+
+  --ds-color-text: #faf7f0;
+  --ds-color-text-secondary: #b8b0a4;
+  --ds-color-text-muted: #8a8378;
+  --ds-color-text-inverse: #1c1915;
+
+  --ds-color-accent: #f0c14b;
+  --ds-color-accent-hover: #f5cd66;
+  --ds-color-accent-pressed: #d9a832;
+  --ds-color-accent-muted: rgba(240, 193, 75, 0.2);
+  --ds-color-accent-glow: rgba(240, 193, 75, 0.28);
+  --ds-color-accent-ink: #f0c14b;
+
+  --ds-color-ink: #faf7f0;
+  --ds-color-ink-soft: #ebe4d6;
+
+  --ds-glass-bg: #24211c;
+  --ds-glass-bg-soft: #1c1915;
+  --ds-glass-bg-solid: #24211c;
+  --ds-scrim: rgba(8, 7, 5, 0.62);
+
+  --ds-shadow-sm: 0 4px 18px rgba(0, 0, 0, 0.28);
+  --ds-shadow-md: 0 12px 36px rgba(0, 0, 0, 0.35);
+  --ds-shadow-lg: 0 24px 56px rgba(0, 0, 0, 0.45);
+
+  --ds-shell-gradient: linear-gradient(145deg, #1c1915 0%, #181612 55%, #14120f 100%);
+  --ds-shell-border: rgba(255, 255, 255, 0.06);
+  --ds-ambient-accent: #8a6a12;
+  --ds-ambient-warm: #5c4a1e;
+  --ds-scroll-thumb: #4a4338;
+  --ds-pill-active-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
