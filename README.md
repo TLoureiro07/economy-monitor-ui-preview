@@ -1,8 +1,23 @@
 # Economy Monitor - UI Preview
 
-<img width="690" height="408" alt="image" src="https://github.com/user-attachments/assets/9f836939-17aa-4f71-981a-95688efcc118" />
-<img width="1540" height="897" alt="image" src="https://github.com/user-attachments/assets/afe285a6-65f9-4fda-9e04-1e18cf1f0f42" />
-<img width="548" height="500" alt="image" src="https://github.com/user-attachments/assets/e4f848e3-a3e1-4704-bcf0-2da3ae5553a9" />
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/afe285a6-65f9-4fda-9e04-1e18cf1f0f42" width="100%" /><br/>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/e4f848e3-a3e1-4704-bcf0-2da3ae5553a9" width="100%"  /><br/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+            <img src="https://github.com/user-attachments/assets/9f836939-17aa-4f71-981a-95688efcc118" width="100%"  /><br/>
+    </td>
+  </tr>
+</table>
+
 
 
 
