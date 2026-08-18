@@ -1,4 +1,4 @@
-# Economy Monitor — UI Preview
+# Economy Monitor - UI Preview
 
 Standalone browser demo of the **Economy Monitor** admin dashboard. The commercial FiveM resource stays private — this repo shows only the front-end with mock data.
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Opens at `http://localhost:5173` — no FiveM required.
+Opens at `http://localhost:5173` - no FiveM required.
 
 ## Screens included
 
